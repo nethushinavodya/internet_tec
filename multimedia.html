@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>multimedia</title>
+</head>
+<body>
+  <!--
+  >Image
+  >Audio
+  >Video
+  -->
+<!--Image -->
+  <!--<img src="assets/finland.jpg" title="Finland" alt="image not found" width="300">
+  <img src="assets/images.jpg" title="Norway" alt="image not found" width="300" height="200">
+
+-->
+  <!-- Picture -->
+<picture>
+    <source media="(min-width: 600px)" srcset="assets/images1.jpeg" type="image/jpeg">
+    <source media="(min-width: 400px)" srcset="assets/finland.jpg" type="image/jpeg" width="300" height="200">
+    <source media="(min-width: 200px)" srcset="assets/images.jpg" type="image/jpeg" width="300" height="200">
+    <img src="assets/images1.jpeg" title="abc" alt="abc">
+</picture>
+</body>
+</html>
